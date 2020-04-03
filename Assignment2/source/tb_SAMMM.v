@@ -3,9 +3,9 @@
 
 module tb_SAMMM ();
 
-	parameter DATA_WIDTH = 2;
-	parameter SIZE_NUM   = 32;
-	parameter COUNT_NUM  = 5;
+	parameter DATA_WIDTH = 8;
+	parameter SIZE_NUM   = 16;
+	parameter COUNT_NUM  = 4;
 
 	reg rst_n;
 	reg clk;

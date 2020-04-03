@@ -1,9 +1,9 @@
 `timescale 1ns/1ps
 
 module SAMMM 
-  #(parameter DATA_WIDTH=2, 
-	parameter SIZE_NUM=32,
-	parameter COUNT_NUM=5)(
+  #(parameter DATA_WIDTH=8, 
+	parameter SIZE_NUM=16,
+	parameter COUNT_NUM=4)(
 	input clk,    
 	input rst_n,  
 	input en,
